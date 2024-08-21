@@ -24,6 +24,7 @@ export default function RootLayout({
           inter.className
         )}
       >
+        <Sidebar />
         {children}
       </body>
     </html>
